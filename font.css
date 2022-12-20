@@ -1,0 +1,172 @@
+@font-face {
+  font-display: swap;
+  font-family:Bubble Bobble;
+  src: url(./fonts/Bubble\ Bobble.otf);
+}
+@font-face {
+    font-display: swap;
+    font-family: GeoBrandBlack;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-black.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-black.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-black.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-black.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-black.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoBrandBlackItalic;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-blackitalic.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-blackitalic.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-blackitalic.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-blackitalic.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-blackitalic.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoBrandBold;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-bold.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-bold.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-bold.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-bold.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-bold.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoBrandBoldItalic;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-bolditalic.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-bolditalic.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-bolditalic.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-bolditalic.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-bolditalic.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoBrandLight;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-light.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-light.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-light.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-light.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-light.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoBrandLightItalic;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-lightitalic.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-lightitalic.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-lightitalic.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-lightitalic.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-lightitalic.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoBrandMedium;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-medium.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-medium.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-medium.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-medium.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-medium.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoBrandMediumItalic;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-mediumitalic.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-mediumitalic.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-mediumitalic.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-mediumitalic.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-mediumitalic.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoBrandRegular;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-regular.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-regular.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-regular.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-regular.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-regular.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoBrandRegularItalic;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-regularitalic.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-regularitalic.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-regularitalic.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-regularitalic.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-regularitalic.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoBrandThin;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-thin.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-thin.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-thin.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-thin.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-thin.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoBrandThinItalic;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-thinItalic.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-thinItalic.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-thinItalic.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-thinItalic.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographweb-thinItalic.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoEditBlack;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-black.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-black.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-black.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-black.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-black.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoEditBlackItalic;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-blackitalic.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-blackitalic.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-blackitalic.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-blackitalic.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-blackitalic.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoEditBold;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-bold.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-bold.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-bold.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-bold.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-bold.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoEditBoldItalic;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-bolditalic.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-bolditalic.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-bolditalic.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-bolditalic.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-bolditalic.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoEditLight;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-light.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-light.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-light.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-light.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-light.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoEditLightItalic;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-lightitalic.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-lightitalic.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-lightitalic.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-lightitalic.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-lightitalic.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoEditMedium;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-medium.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-medium.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-medium.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-medium.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-medium.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoEditMediumItalic;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-mediumitalic.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-mediumitalic.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-mediumitalic.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-mediumitalic.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-mediumitalic.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoEditRegular;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-regular.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-regular.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-regular.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-regular.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-regular.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoEditRegularItalic;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-regularitalic.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-regularitalic.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-regularitalic.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-regularitalic.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-regularitalic.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoEditThin;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-thin.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-thin.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-thin.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-thin.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-thin.ttf) format("truetype")
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: GeoEditThinItalic;
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-thinitalic.eot);
+    src: url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-thinitalic.eot#iefix) format("embedded-opentype"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-thinitalic.woff2) format("woff2"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-thinitalic.woff) format("woff"),url(https://assets-cdn.nationalgeographic.com/natgeo/static/fonts/geographeditweb-thinitalic.ttf) format("truetype")
+  }
