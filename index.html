@@ -186,7 +186,7 @@
                             <h4 class="title">Enquiry Form</h4>
                         </div>
                         <div class="form-group text-center">
-                            <form id="contact-form" class="contact-form" method="post" action="#">
+                              <form id="contact-form" class="contact-form" method="post" action="mail.php" onsubmit="return validateForm()">
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <input class="from-control" name="name" type="text" placeholder="Name" id="name"
@@ -204,9 +204,9 @@
                                     <div class="col-lg-12 mb-20">
                                         <select name="select" id="select-option" class="form-control">
                                             <option value="">Select a Option</option>
-                                            <option value="Option_one">Primary</option>
-                                            <option value="Option_two">Pre-Primary </option>
-                                            <option value="Option_two">Upper Primary </option>
+                                            <option value="Primary">Primary</option>
+                                            <option value="Pre-Primary">Pre-Primary </option>
+                                            <option value="Upper Primary">Upper Primary </option>
                                         </select>
                                     </div>
                                     <div class="col-lg-12">
